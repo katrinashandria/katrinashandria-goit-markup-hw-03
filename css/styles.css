@@ -1,0 +1,229 @@
+:root {
+    --accent-color: #2196F3;;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --main-background-color: #ffffff;
+    --secondary-background-color: #2F303A;
+}
+
+
+body {
+    font-family: "Roboto";
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color:var(--primary-text-color);
+    background-color:var(--mail-background-color);
+}
+
+/*------------zero-----------------*/
+
+.list {
+    list-style: none;
+    margin-left: 0px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* ------------------header--------------------- */
+
+
+
+.nav-list {
+    
+}
+li.nav-item {
+    font-style: normal;
+    text-decoration: none;
+}
+.nav-link {
+    font-weight: 500;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    color: #000000;
+}
+
+.white-logo {
+    margin-left: -5px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.accent {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+.header-phone {
+    font-weight: 500;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+.header-mail:hover, .header-mail:focus {
+    color: var(--accent-color);
+}
+
+.header-phone:hover, .header-phone:focus {
+    color: var(--accent-color);
+}
+
+.header-button {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.filter-button {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.filter-button:hover, .filter-button:focus {
+    color:#FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.header-mail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+.hero {
+    background-color: var(--secondary-background-color);
+}
+
+.hero-name {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60/44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-background-color);
+}
+
+/* -----------------what we do----------------- */
+
+.service-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: calc(16/14);
+    text-transform: uppercase;
+    color:var(--primary-text-color);
+}
+
+.service-description {
+    line-height: calc(24/14);
+    color:var(--secondary-text-color);
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+}
+
+.project-title {
+    font-size: 18px;
+    line-height: calc(36/18);
+    letter-spacing: 0.06em;
+}
+
+.project-type-title {
+    font-size: 16px;
+    line-height: calc(30/16);
+    color: var(--secondary-text-color);
+}
+
+/* --------------------our team------------- */
+
+.team-names {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;
+}
+
+.team-position {
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
+/*------------------footer-------------*/
+
+.footer {
+    background-color: var(--secondary-background-color);
+}
+
+.address {
+    line-height: 1.74;
+    color: var(--main-background-color);
+}
+
+
+.footer-mail:hover, .footer-mail:focus {
+    color: var(--accent-color);
+} 
+
+.footer-phone:hover, .footer-phone:focus {
+    color: var(--accent-color);
+}
+
+.footer-mail {
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-phone {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
