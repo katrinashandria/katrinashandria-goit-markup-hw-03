@@ -6,6 +6,15 @@
     --secondary-background-color: #2F303A;
 }
 
+html {
+    box-sizing: border-box;
+
+    *, 
+    *::before, 
+    *::after {
+        box-sizing: inherit;
+    }
+}
 
 body {
     font-family: "Roboto";
@@ -28,7 +37,9 @@ body {
 
 /* ------------------header--------------------- */
 
-
+.header {
+    width: 1600px;
+}
 
 .nav-list {
     
@@ -90,6 +101,8 @@ li.nav-item {
 }
 
 .header-button {
+    display: inline-block;
+    padding: 10px 32px;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
