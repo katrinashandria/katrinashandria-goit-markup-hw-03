@@ -8,13 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header class="header">
-        <div>
+    <header>
+        <div class="container">
             <nav>
                 <a href="./index.html" lang="en" class="logo link"> <span class="accent">Web</span>Studio</a>
                 <ul class="nav-list list">
@@ -23,18 +24,24 @@
                     <li class="nav-item"> <a href="" class="nav-link link">Контакти</a></li>
                 </ul>
             </nav>
-        </div>
+        
         <ul class="list">
             <li><a href="mailto:info@devstudio.com" class="header-mail link">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111" class="header-phone link">+38 096 111 11 11</a></li>
         </ul>
-            </header>
-    <main>
-<section class="hero">
+        </div>
+    </header>
+    
+<main>
+<section class="hero section">
+    <div class="container"> 
 <h1 class="hero-name">Ефективні рішення для вашого бізнесу</h1>
 <button type="button" class="header-button">Замовити послугу</button>
+</div> 
 </section>
-<section>
+
+<section class="section">
+    <div class="container">
     <h2 hidden>Наші переваги</h2>
     <ul class="list">
         <li>
@@ -54,8 +61,12 @@
             <p class="service-description">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
         </li>
     </ul>
+</div>
 </section>
-<section>
+
+
+<section class="section">
+    <div class="container">
     <h2 class="section-title">Чим ми займаємося</h2>
     <ul class="list">
         <li>
@@ -68,8 +79,10 @@
             <img src="./images/box3.jpg" width="370" height="294" alt="Дизайн">
         </li>
     </ul>
+</div>
 </section>
-<section>
+<section class="section">
+    <div class="container">
     <h2 class="section-title">Наша команда</h2>
     <ul class="list">
         <li>
@@ -93,10 +106,11 @@
             <p lang="en" class="team-position">UI Designer</p>
         </li>
     </ul>
+</div>
 </section>
     </main> 
-    <footer class="footer">
-    
+    <footer class="footer container">
+    <div>
         <a href="./index.html" lang="en" class="logo link"> <span class="accent">Web</span> <span class="white-logo">Studio</span> </a>
 <address>
     <ul class="list">
@@ -111,6 +125,7 @@
         </li>
     </ul>
 </address>
+</div>
     </footer>
 </body>
 </html>

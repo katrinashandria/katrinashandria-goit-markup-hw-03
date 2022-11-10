@@ -11,10 +11,10 @@ html {
 }
 
 *, 
-    *::before, 
-    *::after {
-        box-sizing: inherit;
-    }
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
 
 body {
     font-family: "Roboto";
@@ -22,6 +22,15 @@ body {
     letter-spacing: 0.03em;
     color:var(--primary-text-color);
     background-color:var(--mail-background-color);
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+    margin: 0px;
 }
 
 /*------------zero-----------------*/
@@ -29,6 +38,7 @@ body {
 .list {
     list-style: none;
     margin-left: 0px;
+    padding: 0px;
 }
 
 .link {
@@ -37,9 +47,6 @@ body {
 
 /* ------------------header--------------------- */
 
-.header {
-    width: 1600px;
-}
 
 .nav-list {
     
@@ -145,7 +152,7 @@ li.nav-item {
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
-
+/* -------------------hero---------------------- */
 .hero {
     background-color: var(--secondary-background-color);
 }
@@ -158,6 +165,16 @@ li.nav-item {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--main-background-color);
+}
+
+.section {
+    
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* -----------------what we do----------------- */
