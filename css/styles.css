@@ -124,6 +124,7 @@ li.nav-item {
 }
 
 .filter-button {
+    display: inline-block;
     font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
@@ -153,8 +154,13 @@ li.nav-item {
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
+.header-padding {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 /* -------------------hero---------------------- */
 .hero {
+    text-align: center;
     background-color: var(--secondary-background-color);
 }
 
@@ -162,16 +168,24 @@ li.nav-item {
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60/44);
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin-bottom: 30px;
     color: var(--main-background-color);
 }
 
 .section {
-    /* width: 1600px; */
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.section.no-padding {
+    padding-bottom: 0px;
+}
+
+.hero-padding {
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .container {
@@ -185,10 +199,12 @@ li.nav-item {
 /* -----------------what we do----------------- */
 
 .service-title {
+    margin-bottom: 10px;
     font-size: 14px;
     font-weight: 700;
     line-height: calc(16/14);
     text-transform: uppercase;
+    
     color:var(--primary-text-color);
 }
 
@@ -201,12 +217,14 @@ li.nav-item {
     font-size: 36px;
     line-height: calc(42/36);
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .project-title {
     font-size: 18px;
     line-height: calc(36/18);
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
 }
 
 .project-type-title {
@@ -222,6 +240,7 @@ li.nav-item {
     font-size: 16px;
     line-height: calc(19/16);
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .team-position {
@@ -234,6 +253,9 @@ li.nav-item {
 /*------------------footer-------------*/
 
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 215px;
     background-color: var(--secondary-background-color);
 }
 
