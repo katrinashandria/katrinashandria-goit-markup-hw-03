@@ -33,6 +33,11 @@ p {
     margin: 0px;
 }
 
+img {
+    display: block;
+    margin-bottom: 30px;
+}
+
 
 /*------------zero-----------------*/
 
@@ -50,8 +55,21 @@ p {
 
 
 .nav-list {
-    
+    display: flex;
 }
+
+/* .nav-list .item {
+margin-right: 50px;
+}
+
+.nav-list .item:last-child {
+margin-right: 0;
+} */
+
+.nav-list .item:not(:last-child) {
+margin-right: 50px;
+}
+
 li.nav-item {
     font-style: normal;
     text-decoration: none;
