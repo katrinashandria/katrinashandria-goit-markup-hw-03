@@ -52,6 +52,15 @@ img {
 }
 
 /* ------------------header--------------------- */
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 1200px;
+}
+
 .main-nav {
     display: flex;
     align-items: center;
@@ -240,13 +249,7 @@ li.nav-item.no-margin {
     padding-bottom: 200px;
 }
 
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 1200px;
-}
+
 
 /* -----------------what we do----------------- */
 
