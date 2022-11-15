@@ -285,6 +285,14 @@ li.nav-item.no-margin {
     /* justify-content: space-between; */
 }
 
+.flex-container-team {
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    /* gap: 30px; */
+    /* justify-content: space-between; */
+}
+
 .element-item {
     /* width: 370px; */
     width: calc((100% - 60px) / 3);
